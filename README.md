@@ -26,24 +26,6 @@ Para cada API, se generan los siguientes archivos dentro de una subcarpeta espec
 *_atributos_clima.csv: listado de atributos climáticos ofrecidos por la API en los datos diarios.
 mapa_*.html: mapa interactivo con la ubicación de las estaciones en Argentina usando Folium.
 
-Ejemplo de estructura de carpetas:
-datosWether/
-│
-├── meteostats/
-│   ├── mapa_meteostats.html
-│   ├── meteostats_estaciones_argentina.csv
-│   └── meteostats_atributos_clima.csv
-│
-├── WeatherAPI/
-│   ├── mapa_weatherapi.html
-│   ├── weatherapi_estaciones_argentina.csv
-│   └── weatherapi_atributos_clima.csv
-│
-└── VissualCrossingWeather/
-    ├── mapa_visualcrossing.html
-    ├── visualcrossing_estaciones_argentina.csv
-    └── visualcrossing_atributos_clima.csv
-
     
 API Keys necesarias
 Tanto WeatherAPI como Visual Crossing Weather requieren una clave de API para acceder a los datos.
