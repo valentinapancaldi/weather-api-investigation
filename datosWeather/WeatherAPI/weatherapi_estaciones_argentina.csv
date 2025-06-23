@@ -1,0 +1,133 @@
+name,latitude,longitude,has_daily_history
+La Plata,-34.9314,-57.9489,True
+San Fernando del Valle de Catamarca,-28.4667,-65.7833,True
+Resistencia,-27.45,-58.9833,True
+Rawson,-43.3,-65.1,True
+Córdoba,-45.7667,-67.6667,True
+Corrientes,-27.4667,-58.8333,True
+Paraná,-45.7667,-67.6667,True
+Formosa,-26.1833,-58.1833,True
+San Salvador de Jujuy,-24.1833,-65.3,True
+Santa Rosa,-36.6167,-64.2833,True
+La Rioja,-29.4333,-66.85,True
+Mendoza,-32.8833,-68.8167,True
+Posadas,-27.3833,-55.8833,True
+Neuquén,-45.7667,-67.6667,True
+Viedma,-40.8,-63.0,True
+Salta,-24.7833,-65.4167,True
+San Juan,-31.5375,-68.5364,True
+San Luis,-33.3,-66.35,True
+Río Gallegos,-51.6333,-69.2167,True
+Santa Fe,-31.6333,-60.7,True
+Santiago del Estero,-27.7833,-64.2667,True
+Ushuaia,-54.8,-68.3,True
+San Miguel de Tucumán,-26.8167,-65.2167,True
+Buenos Aires,-34.5875,-58.6725,True
+Buenos Aires - Norte,-37.3167,-59.15,True
+Buenos Aires - Centro,-38.4667,-61.3667,True
+Buenos Aires - Sur,-34.6333,-58.3667,True
+Buenos Aires - Oeste,-37.3167,-59.15,True
+Córdoba - Norte,-45.0333,-70.8333,True
+Córdoba - Centro,-34.6,-58.3833,True
+Córdoba - Sur,-32.25,-63.65,True
+Mendoza - Norte,-36.65,-69.7833,True
+Mendoza - Sur,-33.3333,-68.0333,True
+Rosario - Norte,-22.85,-66.7167,True
+Rosario - Sur,-22.85,-66.7167,True
+Rosario,-32.9511,-60.6664,True
+Mar del Plata,-38.0,-57.55,True
+Bahía Blanca,-22.7333,-64.3667,True
+San Carlos de Bariloche,-41.15,-71.3,True
+Comodoro Rivadavia,-45.8667,-67.5,True
+San Rafael,-34.6,-68.3333,True
+San Nicolás de los Arroyos,-33.3303,-60.2269,True
+Río Cuarto,-33.1333,-64.35,True
+Concordia,-31.4,-58.0333,True
+Santa Rosa,-36.6167,-64.2833,True
+San Justo,-30.7833,-60.5833,True
+Godoy Cruz,-32.9167,-68.8333,True
+Villa María,-32.6667,-62.1,True
+Villa Mercedes,-33.6667,-65.4667,True
+Tandil,-37.3167,-59.15,True
+Venado Tuerto,-33.7497,-61.9669,True
+Rafaela,-31.2667,-61.4833,True
+Trelew,-43.25,-65.3,True
+San Martín (Mza),31.3792,-9.3128,True
+Oberá,-45.7667,-67.6667,True
+General Roca,-39.0333,-67.5833,True
+Goya,-29.1333,-59.2667,True
+Paso de los Libres,-29.7167,-57.0833,True
+Concepción del Uruguay,-32.4833,-58.2283,True
+Yerba Buena,-28.9833,-65.4833,True
+Alta Gracia,-31.6667,-64.4333,True
+Carlos Paz,-31.4,-64.5167,True
+El Calafate,-50.3333,-72.3,True
+Esquel,-42.9,-71.3167,True
+El Bolsón,-29.1167,-65.35,True
+Villa La Angostura,-40.7833,-71.6667,True
+Chos Malal,-37.3833,-70.2667,True
+Pico Truncado,-46.8,-67.9667,True
+Río Grande,-27.2167,-54.9667,True
+Perito Moreno,-46.6,-70.9333,True
+Los Antiguos,-46.55,-71.6167,True
+San Luis del Palmar,-27.5167,-58.5667,True
+Monte Quemado,-25.8,-62.8667,True
+Santa Victoria Este,-22.25,-64.9667,True
+Las Lajitas,-24.6833,-64.25,True
+Tinogasta,-28.0667,-67.5667,True
+Abra Pampa,-22.7167,-65.7,True
+La Quiaca,-22.1,-65.6167,True
+Piedra del Águila,-40.05,-70.0833,True
+Villa Pehuenia,-32.6667,-62.1,True
+Avellaneda,-29.1167,-59.6667,True
+Quilmes,-34.7203,-58.2694,True
+Morón,-45.7667,-67.6667,True
+Lomas de Zamora,-34.7667,-58.4,True
+Lanús,-45.7667,-67.6667,True
+Berazategui,-34.7333,-58.2553,True
+San Miguel,-28.0,-57.6,True
+Tigre,-34.4258,-58.5967,True
+San Isidro,-34.4708,-58.5286,True
+Vicente López,-26.6167,-54.1333,True
+José C. Paz,-34.5,-58.75,True
+Ituzaingó,-45.7667,-67.6667,True
+Merlo,-32.35,-65.0333,True
+Florencio Varela,-34.8272,-58.3956,True
+Campana,-34.1769,-58.9208,True
+Zárate,-45.7667,-67.6667,True
+San Pedro,-33.6706,-59.6828,True
+Pergamino,-33.8925,-60.5725,True
+Junín,-45.7667,-67.6667,True
+San Nicolás de los Arroyos,-33.3303,-60.2269,True
+Chivilcoy,-34.9083,-60.0306,True
+Bragado,-35.1192,-60.5047,True
+9 de Julio,-28.8333,-58.8333,True
+Pehuajó,-45.7667,-67.6667,True
+Trenque Lauquen,-35.9667,-62.7,True
+Carlos Casares,-35.6264,-61.3603,True
+General Madariaga,-37.0,-57.15,True
+Monte Hermoso,-38.65,-61.3,True
+Tandil,-37.3167,-59.15,True
+Balcarce,-37.8333,-58.25,True
+Olavarría,-45.7667,-67.6667,True
+Azul,-36.7833,-59.85,True
+Benito Juárez,-31.7833,-60.4333,True
+Necochea,-38.55,-58.75,True
+Tres Arroyos,-38.3833,-60.2833,True
+Miramar,-30.9,-62.6667,True
+Villa Gesell,-37.25,-56.9167,True
+Pinamar,-37.1167,-56.8333,True
+Dolores,-36.3333,-57.6667,True
+Carmen de Patagones,-40.8,-62.9833,True
+Carhué,-45.7667,-67.6667,True
+Lincoln,-34.865,-61.5319,True
+Punta Alta,-38.8833,-62.0833,True
+Pigüé,-45.7667,-67.6667,True
+Coronel Suárez,-25.2667,-65.4833,True
+Coronel Pringles,-37.9667,-61.3667,True
+Ramallo,-33.4786,-60.0208,True
+Salto,-32.1667,-64.2667,True
+Rojas,-34.1953,-60.735,True
+Colón (Buenos Aires),-37.3167,-59.15,True
+Arrecifes,-34.05,-60.1167,True
+25 de Mayo (La Pampa),-37.8,-67.6833,True
