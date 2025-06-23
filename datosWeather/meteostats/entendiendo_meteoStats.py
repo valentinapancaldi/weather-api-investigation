@@ -169,7 +169,7 @@ def create_argentina_stations_report():
 
     base_path = os.path.dirname(os.path.abspath(__file__))
     
-    csv_path = os.path.join(base_path, "argentina_meteorological_stations_complete.csv")
+    csv_path = os.path.join(base_path, "meteostats_estaciones_argentina.csv")
     final_df.to_csv(csv_path, index=False)
 
     # Crear resumen
@@ -210,7 +210,7 @@ def create_argentina_stations_report():
             ).add_to(m)
 
     # Mostrar el mapa en Jupyter o exportarlo como HTML
-    html_path = os.path.join(base_path, "estaciones_argentina.html")
+    html_path = os.path.join(base_path, "mapa_meteostats.html")
     m.save(html_path)   
     
     return final_df
