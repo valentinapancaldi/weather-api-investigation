@@ -23,7 +23,9 @@ Archivos generados
 Para cada API, se generan los siguientes archivos dentro de una subcarpeta específica del directorio datosWeather:
 
 *_estaciones_argentina.csv: listado de estaciones meteorológicas en Argentina con nombre, latitud, longitud y si tienen datos diarios disponibles.
+
 *_atributos_clima.csv: listado de atributos climáticos ofrecidos por la API en los datos diarios.
+
 mapa_*.html: mapa interactivo con la ubicación de las estaciones en Argentina usando Folium.
 
     
