@@ -9,5 +9,6 @@ dependencies = [
     "meteostat>=1.7.4",
     "numpy>=2.0.2",
     "pandas>=2.3.0",
+    "python-dotenv>=1.1.1",
     "requests>=2.32.4",
 ]

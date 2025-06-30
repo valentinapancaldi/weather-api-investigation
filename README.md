@@ -20,7 +20,7 @@ Hasta el momento, el análisis incluye:
 
 
 Archivos generados
-Para cada API, se generan los siguientes archivos dentro de una subcarpeta específica del directorio datosWeather:
+Para cada API, se generan los siguientes archivos dentro de una subcarpeta específica del directorio datos_weather:
 
 *_estaciones_argentina.csv: listado de estaciones meteorológicas en Argentina con nombre, latitud, longitud y si tienen datos diarios disponibles.
 
@@ -29,8 +29,11 @@ Para cada API, se generan los siguientes archivos dentro de una subcarpeta espec
 mapa_*.html: mapa interactivo con la ubicación de las estaciones en Argentina usando Folium.
 
     
-API Keys necesarias
-Tanto WeatherAPI como Visual Crossing Weather requieren una clave de API para acceder a los datos.
+API Keys necesarias y configuración de variables de entorno
+
+Para acceder a los datos de WeatherAPI y Visual Crossing Weather, necesitás una clave de API (API key). Para proteger estas claves y evitar subirlas a GitHub, se deben definir en un archivo .env en la raíz del proyecto. Este archivo no se sube al repositorio y contiene tus claves reales.
+
+Se incluye un archivo .env.example con la estructura y nombres de las variables necesarias para que puedas crear tu propio .env con tus claves.
 
 WeatherAPI
 
@@ -47,6 +50,9 @@ Visual Crossing Weather
 Meteostat no requiere clave de API si se utiliza la librería oficial de Python (pip install meteostat).
 Si se accede vía la API REST (en formato JSON), sí existen límites mensuales y se requiere registro.
 
+Pasos para configurar el archivo .env
+1. Copiá el archivo .env.example y renombralo a .env
+2. Reemplazá los valores de ejemplo por tus propias API keys
 
 Dependencias necesarias
 Para poder ejecutar los scripts y generar los resultados, es necesario tener instaladas las siguientes librerías de Python:
