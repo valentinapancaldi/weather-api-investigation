@@ -32,6 +32,34 @@ def generar_mapa_estaciones(df, nombre_archivo_html, base_path, lat_col='latitud
     m.save(map_path)
     print(f"Mapa guardado en: {map_path}")
 
+import pandas as pd
+import os
+
+def guardar_estaciones_y_atributos(lista_estaciones, atributos_clima_set, base_path, nombre_api):
+    """
+    Guarda dos archivos CSV:
+    - Uno con las estaciones (a partir de lista_estaciones)
+    - Otro con los atributos climáticos (a partir de un set)
+
+    Parámetros:
+        lista_estaciones (list): lista de diccionarios con las estaciones
+        atributos_clima_set (set): conjunto de atributos climáticos
+        base_path (str): ruta donde guardar los archivos
+        nombre_api (str): prefijo para los nombres de archivo (por ejemplo 'weatherapi')
+    """
+    # Guardar estaciones
+    df_est = pd.DataFrame(lista_estaciones)
+    ruta_est = os.path.join(base_path, f"{nombre_api}_estaciones_argentina.csv")
+    df_est.to_csv(ruta_est, index=False, encoding='utf-8')
+    print(f"CSV de estaciones guardado en: {ruta_est}")
+
+    # Guardar atributos
+    df_attr = pd.DataFrame(sorted(atributos_clima_set), columns=['atributo'])
+    ruta_attr = os.path.join(base_path, f"{nombre_api}_atributos_clima.csv")
+    df_attr.to_csv(ruta_attr, index=False, encoding='utf-8')
+    print(f"CSV de atributos climáticos guardado en: {ruta_attr}")
+
+
 ciudades = [
     # ========================
     # Capitales de provincias

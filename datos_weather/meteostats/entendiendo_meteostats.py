@@ -212,5 +212,8 @@ def create_argentina_stations_report():
   
     return final_df
 
-# Ejecutar el análisis completo
-create_argentina_stations_report()
+def main():
+    create_argentina_stations_report()
+
+if __name__ == "__main__":
+    main()

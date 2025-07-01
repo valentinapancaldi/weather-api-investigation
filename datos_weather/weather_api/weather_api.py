@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-import folium
 import os
 import time
 from dotenv import load_dotenv
@@ -9,68 +8,76 @@ import sys
 # Añadir el path del directorio padre de 'datos_weather' al path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from utiles import ciudades
-from utiles import generar_mapa_estaciones
+from utiles import ciudades, generar_mapa_estaciones, guardar_estaciones_y_atributos
 
-load_dotenv()  # Carga variables desde el archivo .env
+def obtener_datos_weatherapi(api_key, base_path):
+    """
+    Consulta la API de WeatherAPI para las ciudades definidas y guarda info de estaciones y atributos.
+    """
+    lista_estaciones = []
+    atributos_clima_set = set()
 
-API_KEY = os.getenv('api_key_weather_api')
+    for city in ciudades:
+        print(f"Procesando {city}...")
+        
+        url = (
+            f"http://api.weatherapi.com/v1/history.json?"
+            f"key={api_key}&q={city},Argentina&dt=2025-06-15"
+        )
 
-base_path = os.path.dirname(os.path.abspath(__file__))
+        try:
+            r = requests.get(url)
+            r.raise_for_status()
+            data = r.json()
+        except Exception as e:
+            print(f"❌ Error al procesar {city}: {e}")
+            continue
 
+        loc = data.get('location', {})
+        forecast = data.get('forecast', {})
+        forecast_day = forecast.get('forecastday', [])
 
-lista_estaciones = []
-atributos_clima_set = set()
+        lista_estaciones.append({
+            'name': city,
+            'latitude': loc.get('lat'),
+            'longitude': loc.get('lon'),
+            'has_daily_history': bool(forecast_day)
+        })
 
-for city in ciudades:
-    print(f"Procesando {city}...")
-    # Consultar historial de un día cualquiera 
-    url = (
-        f"http://api.weatherapi.com/v1/history.json?"
-        f"key={API_KEY}&q={city},Argentina&dt=2025-06-15"
+        if forecast_day:
+            primer_dia = forecast_day[0].get('day', {})
+            atributos_clima_set.update(primer_dia.keys())
+
+        time.sleep(1)
+
+    return lista_estaciones, atributos_clima_set
+
+def main():
+    load_dotenv()
+    API_KEY = os.getenv('api_key_weather_api')
+    base_path = os.path.dirname(os.path.abspath(__file__))
+
+    # Obtener datos
+    lista_estaciones, atributos_clima_set = obtener_datos_weatherapi(API_KEY, base_path)
+
+    # Guardar CSVs
+    guardar_estaciones_y_atributos(
+        lista_estaciones=lista_estaciones,
+        atributos_clima_set=atributos_clima_set,
+        base_path=base_path,
+        nombre_api="weatherapi" 
     )
-    r = requests.get(url)
-    data = r.json()
-    
-    loc = data.get('location', {})
-    forecast = data.get('forecast', {})
-    forecast_day = forecast.get('forecastday', [])
-    
-    # Registrar estaciones por ciudad
-    lista_estaciones.append({
-        'name': city,
-        'latitude': loc.get('lat'),
-        'longitude': loc.get('lon'),
-        'has_daily_history': bool(forecast_day)
-    })
-    
-    # Extraer atributos climáticos
-    if forecast_day:
-        # Tomamos el primer día
-        ky = forecast_day[0].get('day', {})
-        atributos_clima_set.update(ky.keys())
-    
-    time.sleep(1)
 
-# Guardar estaciones
-df_est = pd.DataFrame(lista_estaciones)
-ruta_est = os.path.join(base_path, "weatherapi_estaciones_argentina.csv")
-df_est.to_csv(ruta_est, index=False, encoding='utf-8')
+    # Crear mapa
+    df_est = pd.DataFrame(lista_estaciones)
+    generar_mapa_estaciones(
+        df=df_est,
+        nombre_archivo_html="mapa_weatherapi.html",
+        base_path=base_path,
+        lat_col='latitude',
+        lon_col='longitude',
+        nombre_col='name'
+    )
 
-# Guardar atributos
-df_attr = pd.DataFrame(sorted(atributos_clima_set), columns=['atributo'])
-ruta_attr = os.path.join(base_path, "weatherapi_atributos_clima.csv")
-df_attr.to_csv(ruta_attr, index=False, encoding='utf-8')
-
-print(f"CSV estaciones guardado en: {ruta_est}")
-print(f"CSV atributos guardado en: {ruta_attr}")
-
-# Crear mapa
-generar_mapa_estaciones(
-    df=df_est,
-    nombre_archivo_html="mapa_weatherapi.html",
-    base_path=base_path,
-    lat_col='latitude',
-    lon_col='longitude',
-    nombre_col='name'
-)
+if __name__ == "__main__":
+    main()
