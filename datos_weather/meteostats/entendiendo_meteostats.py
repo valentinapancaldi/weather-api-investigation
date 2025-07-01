@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import time
 import folium  
 import os
+import sys
+# Añadir el path del directorio padre de 'datos_weather' al path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utiles import generar_mapa_estaciones
 
 def check_station_data_availability(station_id, station_name, max_retries=2):
     """
@@ -197,22 +201,15 @@ def create_argentina_stations_report():
     print("ARCHIVOS GENERADOS:")
     print("  📊 argentina_meteorological_stations_complete.csv - Reporte completo")
     
-    # Crear un mapa centrado en Argentina
-    m = folium.Map(location=[-38.41, -63.61], zoom_start=4)
-    
-    # Agregar cada estación como un marcador
-    for _, row in final_df.iterrows():
-        if pd.notna(row['latitude']) and pd.notna(row['longitude']):
-            folium.Marker(
-                location=[row['latitude'], row['longitude']],
-                popup=row['station_name'],
-                icon=folium.Icon(color='blue', icon='cloud')
-            ).add_to(m)
-
-    # Mostrar el mapa en Jupyter o exportarlo como HTML
-    html_path = os.path.join(base_path, "mapa_meteostats.html")
-    m.save(html_path)   
-    
+    generar_mapa_estaciones(
+        df=final_df,
+        nombre_archivo_html="mapa_meteostats.html",
+        base_path=base_path,
+        lat_col='latitude',
+        lon_col='longitude',
+        nombre_col='station_name'
+    )
+  
     return final_df
 
 # Ejecutar el análisis completo

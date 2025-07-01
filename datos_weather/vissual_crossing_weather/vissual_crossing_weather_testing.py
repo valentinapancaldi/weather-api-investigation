@@ -10,6 +10,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from utiles import ciudades
+from utiles import generar_mapa_estaciones
 
 load_dotenv()  # Carga variables desde el archivo .env
 
@@ -71,13 +72,11 @@ df_attr.to_csv(ruta_attr, index=False, encoding='utf-8')
 print(f"CSV de atributos climáticos guardado en: {ruta_attr}")
 
 # Crear mapa folium con todas las ciudades
-m = folium.Map(location=[-38.41, -63.61], zoom_start=4)
-for _, r in df_est.iterrows():
-    folium.Marker(
-        location=[r.latitude, r.longitude],
-        popup=r.name,
-        icon=folium.Icon(color='blue', icon='cloud')
-    ).add_to(m)
-map_path = os.path.join(base_path, "mapa_visualcrossing.html")
-m.save(map_path)
-print(f"Mapa guardado en: {map_path}")
+generar_mapa_estaciones(
+    df=df_est,
+    nombre_archivo_html="mapa_visualcrossing.html",
+    base_path=base_path,  
+    lat_col='latitude',
+    lon_col='longitude',
+    nombre_col='name'
+)

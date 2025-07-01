@@ -1,3 +1,37 @@
+import folium
+import os
+import pandas as pd
+
+def generar_mapa_estaciones(df, nombre_archivo_html, base_path, lat_col='latitude', lon_col='longitude', nombre_col='name'):
+    """
+    Genera un mapa de estaciones meteorológicas usando Folium.
+
+    Parámetros:
+    - df: DataFrame con las estaciones
+    - nombre_archivo_html: nombre del archivo a guardar
+    - base_path: ruta absoluta donde guardar el archivo HTML
+    - lat_col: nombre de la columna con latitud
+    - lon_col: nombre de la columna con longitud
+    - nombre_col: nombre de la columna con el nombre de la estación
+    """
+
+    # Crear mapa centrado en Argentina
+    m = folium.Map(location=[-38.41, -63.61], zoom_start=4)
+
+    # Agregar marcadores
+    for _, row in df.iterrows():
+        if pd.notna(row[lat_col]) and pd.notna(row[lon_col]):
+            folium.Marker(
+                location=[row[lat_col], row[lon_col]],
+                popup=row[nombre_col],
+                icon=folium.Icon(color='blue', icon='cloud')
+            ).add_to(m)
+
+    # Guardar mapa
+    map_path = os.path.join(base_path, nombre_archivo_html)
+    m.save(map_path)
+    print(f"Mapa guardado en: {map_path}")
+
 ciudades = [
     # ========================
     # Capitales de provincias
