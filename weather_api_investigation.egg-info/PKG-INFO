@@ -4,7 +4,6 @@ Version: 0.1.0
 Summary: Add your description here
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
-Requires-Dist: aiohttp>=3.12.13
 Requires-Dist: folium>=0.20.0
 Requires-Dist: meteostat>=1.7.4
 Requires-Dist: numpy>=2.0.2

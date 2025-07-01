@@ -1,4 +1,3 @@
-aiohttp>=3.12.13
 folium>=0.20.0
 meteostat>=1.7.4
 numpy>=2.0.2
