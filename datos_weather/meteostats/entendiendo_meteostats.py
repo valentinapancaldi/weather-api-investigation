@@ -3,7 +3,7 @@ import numpy as np
 from meteostat import Stations, Daily, Hourly
 from datetime import datetime, timedelta
 import time
-import folium  
+from tqdm.auto import tqdm
 import os
 import sys
 # Añadir el path del directorio padre de 'datos_weather' al path
@@ -146,7 +146,7 @@ def create_argentina_stations_report():
     all_results = []
     
     # Procesar cada estación
-    for i, (station_id, station_info) in enumerate(stations_df.iterrows(), 1):
+    for i, (station_id, station_info) in enumerate(tqdm(stations_df.iterrows(), total=len(stations_df)), 1):
         print(f"\n[{i}/{len(stations_df)}] ", end="")
         
         # Obtener información básica de la estación

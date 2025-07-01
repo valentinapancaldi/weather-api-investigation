@@ -1,118 +1,118 @@
 station_id,station_name,region,latitude,longitude,elevation,country,daily_available,daily_records,daily_has_coco,daily_coco_count,daily_error,hourly_available,hourly_records,hourly_has_coco,hourly_coco_count,hourly_error,last_daily_date,last_hourly_date
-87007,La Quiaca Observatorio,Y,-22.1,-65.6,3462.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87016,Oran Aerodrome,A,-23.15,-64.3167,357.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87022,Tartagal Aerodrome,A,-22.65,-63.8167,450.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87046,Jujuy Aerodrome,Y,-24.3833,-65.0833,921.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87047,Salta Aerodrome,A,-24.85,-65.4833,1238.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87065,Rivadavia,A,-24.1667,-62.9,205.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87078,Las Lomitas,P,-24.7,-60.5833,130.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87097,Iguazu Aerodrome,N,-25.7333,-54.4667,270.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87121,Tucuman Aerodrome,T,-26.85,-65.1,440.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87129,Santiago Del Estero Aero.,G,-27.7667,-64.3,198.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87148,Presidencia Roque Saenz Pena Aero / Presidencia Roque Sáenz Peña,H,-26.7333,-60.4833,91.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87149,Presidencia Roque Saenz Pena Aerodrome,H,-26.8167,-60.45,91.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87155,Resistencia Aero.,H,-27.45,-59.05,53.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87162,Formosa Aerodrome,P,-26.2,-58.2333,59.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87163,B. De Irigoyen Aerodrome,N,-26.25,-53.15,815.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87166,Corrientes Aero.,W,-27.45,-58.7667,62.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87178,Posadas Aero.,N,-27.3667,-55.9667,131.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87211,Tinogasta,K,-28.0667,-67.5667,1201.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87213,Chilecito Aerodrome,F,-29.2333,-67.4333,945.0,AR,True,22,False,0,,True,578,True,552,,2025-06-23,2025-07-01 00:00
+87007,La Quiaca Observatorio,Y,-22.1,-65.6,3462.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87016,Oran Aerodrome,A,-23.15,-64.3167,357.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87022,Tartagal Aerodrome,A,-22.65,-63.8167,450.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87046,Jujuy Aerodrome,Y,-24.3833,-65.0833,921.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87047,Salta Aerodrome,A,-24.85,-65.4833,1238.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87065,Rivadavia,A,-24.1667,-62.9,205.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87078,Las Lomitas,P,-24.7,-60.5833,130.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87097,Iguazu Aerodrome,N,-25.7333,-54.4667,270.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87121,Tucuman Aerodrome,T,-26.85,-65.1,440.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87129,Santiago Del Estero Aero.,G,-27.7667,-64.3,198.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87148,Presidencia Roque Saenz Pena Aero / Presidencia Roque Sáenz Peña,H,-26.7333,-60.4833,91.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87149,Presidencia Roque Saenz Pena Aerodrome,H,-26.8167,-60.45,91.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87155,Resistencia Aero.,H,-27.45,-59.05,53.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87162,Formosa Aerodrome,P,-26.2,-58.2333,59.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87163,B. De Irigoyen Aerodrome,N,-26.25,-53.15,815.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87166,Corrientes Aero.,W,-27.45,-58.7667,62.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87178,Posadas Aero.,N,-27.3667,-55.9667,131.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87211,Tinogasta,K,-28.0667,-67.5667,1201.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87213,Chilecito Aerodrome,F,-29.2333,-67.4333,945.0,AR,True,22,False,0,,True,575,True,549,,2025-06-23,2025-07-01 00:00
 87214,Chilecito,F,-29.2167,-67.4333,950.0,AR,False,0,False,0,,False,0,False,0,,,
-87217,La Rioja Aero.,F,-29.3833,-66.8167,438.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87222,Catamarca Aero.,K,-28.6,-65.7667,454.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87244,Villa De Maria Del Rio Seco,X,-29.9,-63.6833,341.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87257,Ceres Aerodrome,S,-29.8833,-61.95,87.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87270,Reconquista Aerodrome,S,-29.1833,-59.7,48.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
+87217,La Rioja Aero.,F,-29.3833,-66.8167,438.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87222,Catamarca Aero.,K,-28.6,-65.7667,454.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87244,Villa De Maria Del Rio Seco,X,-29.9,-63.6833,341.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87257,Ceres Aerodrome,S,-29.8833,-61.95,87.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87270,Reconquista Aerodrome,S,-29.1833,-59.7,48.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
 87286,Curuzu Cuatia Aerodrome,W,-29.7833,-57.9833,80.0,AR,False,0,False,0,,False,0,False,0,,,
-87289,Paso De Los Libres Aerodrome,W,-29.6833,-57.15,69.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87305,Jachal,J,-30.25,-68.75,1165.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87311,San Juan Aerodrome,J,-31.5667,-68.8667,597.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87320,Chamical Aerodrome,F,-30.3667,-66.2833,467.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87322,Chepes,F,-31.3333,-66.6,658.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87328,Villa Dolores Aerodrome,X,-31.95,-65.1333,561.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87344,Cordoba Aerodrome,X,-31.3167,-64.2167,484.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87345,Cordoba Observatori / San Vicente,X,-31.4,-64.1833,426.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87347,Cordoba / Santa Isabel,X,-31.45,-64.2667,502.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87349,Pilar Observatorio,X,-31.6667,-63.8833,338.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87371,Sauce Viejo Aerodrome,S,-31.7,-60.8167,17.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87374,Parana Aerodrome,E,-31.7833,-60.4833,74.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
+87289,Paso De Los Libres Aerodrome,W,-29.6833,-57.15,69.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87305,Jachal,J,-30.25,-68.75,1165.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87311,San Juan Aerodrome,J,-31.5667,-68.8667,597.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87320,Chamical Aerodrome,F,-30.3667,-66.2833,467.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87322,Chepes,F,-31.3333,-66.6,658.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87328,Villa Dolores Aerodrome,X,-31.95,-65.1333,561.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87344,Cordoba Aerodrome,X,-31.3167,-64.2167,484.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87345,Cordoba Observatori / San Vicente,X,-31.4,-64.1833,426.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87347,Cordoba / Santa Isabel,X,-31.45,-64.2667,502.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87349,Pilar Observatorio,X,-31.6667,-63.8833,338.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87371,Sauce Viejo Aerodrome,S,-31.7,-60.8167,17.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87374,Parana Aerodrome,E,-31.7833,-60.4833,74.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
 87385,Villaguay Aerodrome,E,-31.85,-59.0833,40.0,AR,False,0,False,0,,False,0,False,0,,,
-87393,Monte Caseros Aerodrome,W,-30.2667,-57.65,53.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87395,Concordia Aerodrome,E,-31.3,-58.0167,35.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87405,Uspallata,M,-32.6,-69.3333,1844.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87412,San Carlos,M,-33.7667,-69.0333,940.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87416,San Martin,M,-33.0833,-68.4167,653.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87418,Mendoza Aerodrome,M,-32.8333,-68.7833,705.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87420,Mendoza Observatori / Villa Hipódromo,M,-32.8833,-68.85,827.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87436,San Luis Aerodrome,D,-33.2667,-66.35,710.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87448,Villa Reynolds Aerodrome,D,-33.7333,-65.3833,485.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87453,Rio Cuarto Aerodrome,X,-33.1167,-64.2333,420.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87467,Marcos Juarez Aerodrome,X,-32.7,-62.15,110.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87480,Rosario Aerodrome,S,-32.9167,-60.7833,25.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87497,Gualeguaychu Aerodrome,E,-33.0,-58.6167,23.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87506,Malargue Aerodrome,M,-35.5,-69.5833,1426.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87509,San Rafael Aerodrome,M,-34.5833,-68.4,745.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87532,General Pico Aerodrome,L,-35.7,-63.75,139.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87534,Laboulaye,X,-34.1333,-63.3667,136.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87544,Pehuajo Aerodrome,B,-35.8667,-61.9,87.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87548,Junin Aerodrome,B,-34.55,-60.9167,82.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87550,Nueve De Julio,B,-35.45,-60.8833,76.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87553,San Fernando Aero / Virreyes,B,-34.45,-58.5833,3.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87563,Las Flores Aerodrome,B,-36.0667,-59.1,38.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
+87393,Monte Caseros Aerodrome,W,-30.2667,-57.65,53.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87395,Concordia Aerodrome,E,-31.3,-58.0167,35.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87405,Uspallata,M,-32.6,-69.3333,1844.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87412,San Carlos,M,-33.7667,-69.0333,940.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87416,San Martin,M,-33.0833,-68.4167,653.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87418,Mendoza Aerodrome,M,-32.8333,-68.7833,705.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87420,Mendoza Observatori / Villa Hipódromo,M,-32.8833,-68.85,827.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87436,San Luis Aerodrome,D,-33.2667,-66.35,710.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87448,Villa Reynolds Aerodrome,D,-33.7333,-65.3833,485.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87453,Rio Cuarto Aerodrome,X,-33.1167,-64.2333,420.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87467,Marcos Juarez Aerodrome,X,-32.7,-62.15,110.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87480,Rosario Aerodrome,S,-32.9167,-60.7833,25.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87497,Gualeguaychu Aerodrome,E,-33.0,-58.6167,23.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87506,Malargue Aerodrome,M,-35.5,-69.5833,1426.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87509,San Rafael Aerodrome,M,-34.5833,-68.4,745.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87532,General Pico Aerodrome,L,-35.7,-63.75,139.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87534,Laboulaye,X,-34.1333,-63.3667,136.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87544,Pehuajo Aerodrome,B,-35.8667,-61.9,87.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87548,Junin Aerodrome,B,-34.55,-60.9167,82.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87550,Nueve De Julio,B,-35.45,-60.8833,76.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87553,San Fernando Aero / Virreyes,B,-34.45,-58.5833,3.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87563,Las Flores Aerodrome,B,-36.0667,-59.1,38.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
 87568,Don Torcuato Aerodrome,B,-34.4833,-58.6167,5.0,AR,False,0,False,0,,False,0,False,0,,,
-87571,El Palomar Aerodrome,B,-34.6,-58.6,18.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87572,Mariano Moreno / San Miguel,B,-34.5667,-58.7833,28.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87574,Moron / Rafael Castillo,B,-34.6833,-58.65,30.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87576,Ezeiza Aerodrome,B,-34.8167,-58.5333,20.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87582,Aeroparque Bs. As. Aerodrome,C,-34.5667,-58.4167,6.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87585,Buenos Aires Observatorio,C,-34.5833,-58.4833,25.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87593,La Plata Aerodrome,B,-34.9667,-57.9,21.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87596,Punta Indio B. A.,B,-35.3667,-57.2833,16.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87623,Santa Rosa Aerodrome,L,-36.5667,-64.2667,190.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87637,Coronel Suarez Aerodrome,B,-37.4333,-61.8833,233.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
+87571,El Palomar Aerodrome,B,-34.6,-58.6,18.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87572,Mariano Moreno / San Miguel,B,-34.5667,-58.7833,28.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87574,Moron / Rafael Castillo,B,-34.6833,-58.65,30.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87576,Ezeiza Aerodrome,B,-34.8167,-58.5333,20.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87582,Aeroparque Bs. As. Aerodrome,C,-34.5667,-58.4167,6.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87585,Buenos Aires Observatorio,C,-34.5833,-58.4833,25.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87593,La Plata Aerodrome,B,-34.9667,-57.9,21.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87596,Punta Indio B. A.,B,-35.3667,-57.2833,16.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87623,Santa Rosa Aerodrome,L,-36.5667,-64.2667,190.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87637,Coronel Suarez Aerodrome,B,-37.4333,-61.8833,233.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
 87639,San Carlos de Bolívar,B,-36.25,-61.1,94.0,AR,False,0,False,0,,False,0,False,0,,,
-87640,Bolivar Aerodrome,BA,-36.2,-61.0667,94.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87641,Azul Aerodrome,B,-36.8333,-59.8833,146.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87642,Azul Airport,B,-36.75,-59.8333,132.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87643,Olovarria Aerodrome,B,-36.8833,-60.2167,165.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87645,Tandil Aerodrome,B,-37.2333,-59.25,175.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87648,Dolores Aerodrome,B,-36.35,-57.7333,10.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87663,Villa Gesell,B,-37.2333,-57.0333,7.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87679,Pigue Aerodrome,B,-37.6,-62.3833,304.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87688,Tres Arroyos,B,-38.3333,-60.25,115.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87692,Mar Del Plata Aerodrome,B,-37.9333,-57.5833,18.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
+87640,Bolivar Aerodrome,BA,-36.2,-61.0667,94.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87641,Azul Aerodrome,B,-36.8333,-59.8833,146.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87642,Azul Airport,B,-36.75,-59.8333,132.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87643,Olovarria Aerodrome,B,-36.8833,-60.2167,165.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87645,Tandil Aerodrome,B,-37.2333,-59.25,175.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87648,Dolores Aerodrome,B,-36.35,-57.7333,10.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87663,Villa Gesell,B,-37.2333,-57.0333,7.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87679,Pigue Aerodrome,B,-37.6,-62.3833,304.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87688,Tres Arroyos,B,-38.3333,-60.25,115.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87692,Mar Del Plata Aerodrome,B,-37.9333,-57.5833,18.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
 87696,Mar Del Plata Anb / Peralta Ramos,B,-38.05,-57.55,4.0,AR,False,0,False,0,,False,0,False,0,,,
-87715,Neuquen Aerodrome,R,-38.95,-68.1333,270.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87736,Rio Colorado,R,-39.0167,-64.0833,79.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87750,Bahia Blanca Aerodrome,B,-38.7333,-62.1667,75.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87761,Chapelco,Q,-40.0833,-71.1333,779.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87765,Bariloche Aerodrome,R,-41.15,-71.1667,845.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87774,Maquinchao,R,-41.25,-68.7333,888.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87784,San Antonio Oeste Aerodrome,R,-40.7833,-65.1,20.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87791,Viedma Aerodrome,R,-40.85,-63.0167,6.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87800,El Bolson Aerodrome,R,-41.9667,-71.5167,337.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87803,Esquel Aerodrome,U,-42.9333,-71.15,789.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87814,Paso De Indios,U,-43.8167,-68.8833,460.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87823,P. Madryn Aerodrome,U,-42.7333,-65.0667,136.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87828,Trelew Aerodrome,U,-43.2,-65.2667,39.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87839,Faro P. Delgada,,-46.5167,-63.6333,0.0,AR,True,29,False,0,,True,720,True,0,,2025-06-30,2025-07-01 12:00
-87852,Perito Moreno Aerodrome,Z,-46.5167,-71.0167,429.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87860,Comodoro Rivadavia Aerodrome,U,-45.7833,-67.5,58.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87880,Gobernador Gregores Aerodrome,Z,-48.7833,-70.1667,358.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87896,Puerto Deseado Aerodrome,Z,-47.7333,-65.9167,81.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87903,Lago Argentino Aerodrome,Z,-50.3333,-72.3,223.0,AR,True,29,False,0,,True,720,True,0,,2025-06-30,2025-07-01 12:00
-87904,El Calafate Aero / Charles Fuhr,Z,-50.2667,-72.05,199.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87909,San Julian Aerodrome,Z,-49.3167,-67.75,58.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87912,Santa Cruz Aerodrome,Z,-50.0167,-68.5667,113.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87925,Rio Gallegos Aerodrome,Z,-51.6167,-69.2833,20.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87934,Rio Grande B. A.,V,-53.8,-67.75,13.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-87938,Ushuaia Aerodrome,V,-54.8,-68.3167,16.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-97789,Puerto Madryn,U,-42.77,-65.1,136.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 12:00
-SACT0,Gobernador / Chamical,F,-30.3667,-66.3,457.0,AR,True,28,False,0,,True,720,True,720,,2025-06-29,2025-07-01 12:00
-SADO0,Campo De Mayo / Muñiz,B,-34.5344,-58.6717,24.0,AR,True,28,False,0,,True,720,True,720,,2025-06-29,2025-07-01 12:00
+87715,Neuquen Aerodrome,R,-38.95,-68.1333,270.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87736,Rio Colorado,R,-39.0167,-64.0833,79.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87750,Bahia Blanca Aerodrome,B,-38.7333,-62.1667,75.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87761,Chapelco,Q,-40.0833,-71.1333,779.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87765,Bariloche Aerodrome,R,-41.15,-71.1667,845.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87774,Maquinchao,R,-41.25,-68.7333,888.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87784,San Antonio Oeste Aerodrome,R,-40.7833,-65.1,20.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87791,Viedma Aerodrome,R,-40.85,-63.0167,6.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87800,El Bolson Aerodrome,R,-41.9667,-71.5167,337.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87803,Esquel Aerodrome,U,-42.9333,-71.15,789.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87814,Paso De Indios,U,-43.8167,-68.8833,460.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87823,P. Madryn Aerodrome,U,-42.7333,-65.0667,136.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87828,Trelew Aerodrome,U,-43.2,-65.2667,39.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87839,Faro P. Delgada,,-46.5167,-63.6333,0.0,AR,True,29,False,0,,True,720,True,0,,2025-06-30,2025-07-01 15:00
+87852,Perito Moreno Aerodrome,Z,-46.5167,-71.0167,429.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87860,Comodoro Rivadavia Aerodrome,U,-45.7833,-67.5,58.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87880,Gobernador Gregores Aerodrome,Z,-48.7833,-70.1667,358.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87896,Puerto Deseado Aerodrome,Z,-47.7333,-65.9167,81.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87903,Lago Argentino Aerodrome,Z,-50.3333,-72.3,223.0,AR,True,29,False,0,,True,720,True,0,,2025-06-30,2025-07-01 15:00
+87904,El Calafate Aero / Charles Fuhr,Z,-50.2667,-72.05,199.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87909,San Julian Aerodrome,Z,-49.3167,-67.75,58.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87912,Santa Cruz Aerodrome,Z,-50.0167,-68.5667,113.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87925,Rio Gallegos Aerodrome,Z,-51.6167,-69.2833,20.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87934,Rio Grande B. A.,V,-53.8,-67.75,13.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+87938,Ushuaia Aerodrome,V,-54.8,-68.3167,16.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+97789,Puerto Madryn,U,-42.77,-65.1,136.0,AR,True,30,False,0,,True,720,True,720,,2025-07-01,2025-07-01 15:00
+SACT0,Gobernador / Chamical,F,-30.3667,-66.3,457.0,AR,True,28,False,0,,True,720,True,720,,2025-06-29,2025-07-01 15:00
+SADO0,Campo De Mayo / Muñiz,B,-34.5344,-58.6717,24.0,AR,True,28,False,0,,True,720,True,720,,2025-06-29,2025-07-01 15:00
 SATM0,Villa Mercedes,W,-29.2167,-58.0833,107.0,AR,False,0,False,0,,False,0,False,0,,,
 SAVD0,El Maiten / El Maitén,U,-42.0333,-71.1667,720.0,AR,False,0,False,0,,False,0,False,0,,,
 SAVR0,Alto Rio Senguerr / Alto Río Senguer,U,-45.0167,-70.8167,697.0,AR,False,0,False,0,,False,0,False,0,,,
 SAWM0,Alto Rio Mayo / Río Mayo,U,-45.7,-70.25,545.0,AR,False,0,False,0,,False,0,False,0,,,
-SAWT0,El Turbio / Elturbio / Veintiocho de Noviembre,Z,-51.6,-72.2167,273.0,AR,True,2,False,0,,True,88,True,60,,2025-06-03,2025-06-11 00:00
+SAWT0,El Turbio / Elturbio / Veintiocho de Noviembre,Z,-51.6,-72.2167,273.0,AR,True,2,False,0,,True,85,True,57,,2025-06-03,2025-06-11 00:00

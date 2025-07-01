@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import os
 import time
+from tqdm.auto import tqdm
 from dotenv import load_dotenv
 import sys
 
@@ -17,7 +18,7 @@ def obtener_datos_visualcrossing(api_key, base_path):
     lista_estaciones = []
     atributos_clima_set = set()
 
-    for city_raw in ciudades:
+    for city_raw in tqdm(ciudades, desc="Consultando ciudades"):
         city = f"{city_raw},AR"
         print(f"Procesando {city_raw}...")
 

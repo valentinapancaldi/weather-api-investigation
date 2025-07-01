@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+datos_weather/utiles.py
+datos_weather/meteostats/entendiendo_meteostats.py
+datos_weather/vissual_crossing_weather/vissual_crossing_weather_testing.py
+datos_weather/weather_api/weather_api.py
+weather_api_investigation.egg-info/PKG-INFO
+weather_api_investigation.egg-info/SOURCES.txt
+weather_api_investigation.egg-info/dependency_links.txt
+weather_api_investigation.egg-info/requires.txt
+weather_api_investigation.egg-info/top_level.txt
