@@ -61,3 +61,7 @@ Para poder ejecutar los scripts y generar los resultados, es necesario tener ins
 - pandas
 - folium
 - meteostat
+- numpy
+- python-dotenv
+- temacity
+- tqdm
