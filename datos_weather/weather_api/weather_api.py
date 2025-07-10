@@ -6,7 +6,6 @@ import logging
 from tqdm.auto import tqdm
 from dotenv import load_dotenv
 from tenacity import retry, after_log, before_log, wait_fixed, stop_after_attempt
-
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utiles import ciudades, generar_mapa_estaciones, guardar_estaciones_y_atributos

@@ -28,12 +28,11 @@ def generar_mapa_estaciones(df, nombre_archivo_html, base_path, lat_col='latitud
             ).add_to(m)
 
     # Guardar mapa
-    map_path = os.path.join(base_path, nombre_archivo_html)
+    recursos_path = os.path.join(base_path, 'recursos')
+    map_path = os.path.join(recursos_path, nombre_archivo_html)
     m.save(map_path)
     print(f"Mapa guardado en: {map_path}")
 
-import pandas as pd
-import os
 
 def guardar_estaciones_y_atributos(lista_estaciones, atributos_clima_set, base_path, nombre_api):
     """

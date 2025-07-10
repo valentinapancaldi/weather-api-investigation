@@ -1,7 +1,8 @@
 # Ignorar el archivo de variables de entorno
-.env
+**/.env
+
 
 # Archivos automáticos de macOS
-.DS_Store
-.AppleDouble
-.LSOverride
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
